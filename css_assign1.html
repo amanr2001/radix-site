@@ -11,10 +11,12 @@
             margin: 0;
 
         }
-        body{
+
+        body {
             display: inline-block;
             width: 100%;
         }
+
         header {
 
             overflow: auto;
@@ -86,69 +88,101 @@
 
         }
 
-        .container{
+        .container {
             padding: 50px;
         }
 
         .right {
             overflow: auto;
-       }
+        }
+
         .project p {
             float: left;
             width: 33%;
 
         }
 
+        .right table tr {
+            font-size: 25px;
+        }
+
         .project video {
             float: right;
             margin-right: 2px;
         }
-        .right div{
+
+        .right div {
             margin: 22px;
         }
-        .right table{
-                width: 100%;
-            }
 
-        @media (max-width:1200px){
-            .logo{
-                float:none;
+        .right table {
+            width: 100%;
+        }
+        .right h4{
+            font-size: 25px;
+        }
+        .right strong{
+            font-size: 20px;
+        }
+
+        @media (max-width:1200px) {
+            .logo {
+                float: none;
                 /* width: 30%; */
                 /* margin: auto; */
             }
-            body{
+
+            body {
                 width: 100%;
                 display: inline-block;
             }
-            .logo img{
+
+            .logo img {
                 width: 20%;
             }
+
             header nav ul {
                 float: none;
             }
-            header nav ul li{
+
+            header nav ul li {
                 float: none;
                 width: 50%;
                 font-size: larger;
-              
+
                 margin: 12px auto;
             }
-            .box{
+
+            .box {
                 display: flex;
                 flex-direction: column;
                 flex-wrap: wrap;
             }
-            .right table{
-                width: 40%;
-            }
-            .left{
+
+            .right table {
                 width: 100%;
             }
-            .container{
+
+            .left {
+                width: 100%;
+            }
+
+            .container {
                 padding: 0px;
             }
-            .right div{
-            margin: 2px;
+
+            .right div {
+                margin: 2px;
+            }
+
+            .right table tr {
+                font-size: 15px;
+            }
+            .right h4{
+            font-size: 15px;
+        }
+        .right strong{
+            font-size: 15px;
         }
         }
     </style>
@@ -157,7 +191,8 @@
 <body>
     <header>
         <div class="logo">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_57UvECIA4gR4E-kMvtitxhsLDzGBND9-m04XDXDQQ&s" alt="Error" srcset="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI_57UvECIA4gR4E-kMvtitxhsLDzGBND9-m04XDXDQQ&s"
+                alt="Error" srcset="">
 
 
         </div>
@@ -220,20 +255,20 @@
                         </ul>
                     </div>
                 </div>
-                <div class="container" >
+                <div class="container">
 
                     <div class="right" style="background-color:lightgoldenrodyellow; border-style: solid;">
-                        <h2 style="text-align:center; color: green;font-family:verdana">Resume</h2>
+                        <h2 style="text-align:center; color: green;font-family:verdana,sans-serif">Resume</h2>
                         <div class="name">
-                            <b style="font-size:20px ; font-family: Verdana;">George Washington</b>
+                            <strong style=" font-family: Verdana,sans-serif;">George Washington</strong>
                             <p style="font-size:20px ;">106 doyers street.<br> 8 Airlington Dr.<br>599 NW BAY ISLAND<br>
                                 pin-989865<br>contact no= 63464319<br>Email:
                                 abc@hotmail.com</p>
 
                         </div>
                         <hr>
-                        <div >
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">Career Objective</h4>
+                        <div>
+                            <h4 style="color: green;font-family:verdana,sans-serif;">Career Objective</h4>
                             <ul>
                                 <li style="font-size:20px;">
                                     To secure a challenging position in a reputable organization to expand my learnings,
@@ -243,7 +278,7 @@
                             </ul>
                         </div>
                         <div>
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">professional qualification
+                            <h4 style="color: green;font-family:verdana,sans-serif;">professional qualification
                             </h4>
                             <ul>
                                 <li style="font-size:20px ;">
@@ -253,29 +288,29 @@
                             </ul>
                         </div>
                         <div>
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">Educational Qualification
+                            <h4 style="color: green;font-family:verdana,sans-serif; ">Educational Qualification
                             </h4>
-                            <table border="2px black" >
+                            <table border="2px black">
                                 <caption></caption>
-                                <tr align="center" style="font-size:25px ;">
+                                <tr style="-align: center;">
                                     <th>Qualification</th>
                                     <th>University</th>
                                     <th>Year</th>
                                     <th>Result</th>
                                 </tr>
-                                <tr align="center" style="font-size:25px ;">
+                                <tr style="text-align: center;">
                                     <td>Masters</td>
                                     <td>Yale University</td>
                                     <td>2017</td>
                                     <td>75%</td>
                                 </tr>
-                                <tr align="center" style="font-size:25px ;">
+                                <tr style="text-align: center;">
                                     <td>Bachelors</td>
                                     <td>Harvard University</td>
                                     <td>2015</td>
                                     <td>85%</td>
                                 </tr>
-                                <tr align="center" style="font-size:25px ;">
+                                <tr style="text-align: center;">
                                     <td>ICSE</td>
                                     <td>St. Island School</td>
                                     <td>2011</td>
@@ -284,7 +319,7 @@
                             </table>
                         </div>
                         <div>
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">Technical Skills</h4>
+                            <h4 style="color: green;font-family:verdana,sans-serif; ">Technical Skills</h4>
                             <ul>
                                 <li style=" font-size:20px ;">HTML</li>
                                 <li style=" font-size:20px ;">CSS</li>
@@ -293,7 +328,7 @@
 
                         </div>
                         <div>
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">Internships</h4>
+                            <h4 style="color: green;font-family:verdana,sans-serif; ">Internships</h4>
                             <ul>
                                 <li style=" font-size:20px ;">
                                     Worked with senir developers to manage large, Complex Design projects for law firms.
@@ -308,7 +343,7 @@
                             </ul>
                         </div>
                         <div>
-                            <h4 style="color: green;font-family:verdana; font-size:25px ;">Personal Details</h4>
+                            <h4 style="color: green;font-family:verdana,sans-serif; ">Personal Details</h4>
                             <ul>
                                 <li style=" font-size:20px ;">Date of birth: 12/12/1988</li>
                                 <li style=" font-size:20px ;">Gender: Male</li>
@@ -318,12 +353,12 @@
 
 
                         </div>
-                        <h4 style="color: green;font-family:verdana; font-size:25px ;">Projects</h4>
+                        <h4 style="color: green;font-family:verdana,sans-serif; ">Projects</h4>
                         <div class="project">
 
                             <P style=" font-size:20px ;"> A news WebApp- A website which displays the latest news with
                                 the provided information in sort using Django,Python,Html</P>
-                            <video width="320" height="240" controls>
+                            <video width="300" height="240" controls>
                                 <source src="./sample-5s.mp4" type="video/mp4">
 
                             </video>
